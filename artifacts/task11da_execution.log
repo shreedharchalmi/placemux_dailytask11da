@@ -1,0 +1,13 @@
+2026-09-29 18:43:49,596 [INFO] Running automated edge-case unit tests...
+2026-09-29 18:43:49,600 [INFO] Unit Test 1 Passed: Empty DataFrame caught.
+2026-09-29 18:43:49,604 [INFO] Unit Test 2 Passed: Non-numeric columns caught.
+2026-09-29 18:43:49,604 [INFO] All unit tests passed successfully.
+
+2026-09-29 18:43:49,604 [INFO] Starting Task 11: Correlation & Heatmaps Analysis Pipeline
+2026-09-29 18:43:49,726 [INFO] DataFrame validation passed: all columns are continuous/numeric.
+2026-09-29 18:43:49,736 [INFO] Computed Pearson and Spearman correlation matrices.
+2026-09-29 18:43:49,739 [INFO] Reordered correlation matrix using hierarchical clustering.
+2026-09-29 18:43:51,218 [INFO] Saved clustered correlation heatmap to artifacts/clustered_correlation_heatmap.png
+2026-09-29 18:43:51,227 [INFO] Identified 24 feature pairs with severe multicollinearity (|r| > 0.85).
+2026-09-29 18:43:51,230 [INFO] Saved correlation summary JSON to artifacts/correlation_summary.json
+2026-09-29 18:43:51,230 [INFO] Task 11 execution completed successfully.

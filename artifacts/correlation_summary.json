@@ -1,0 +1,161 @@
+{
+  "task": "Task 11 - Correlation & Heatmaps",
+  "sample_count": 569,
+  "analyzed_features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst concavity",
+    "worst concave points",
+    "target"
+  ],
+  "severe_multicollinear_pairs_gt_0_85": [
+    {
+      "feature_1": "mean radius",
+      "feature_2": "mean perimeter",
+      "pearson_r": 0.9979
+    },
+    {
+      "feature_1": "mean radius",
+      "feature_2": "mean area",
+      "pearson_r": 0.9874
+    },
+    {
+      "feature_1": "mean perimeter",
+      "feature_2": "mean area",
+      "pearson_r": 0.9865
+    },
+    {
+      "feature_1": "mean compactness",
+      "feature_2": "mean concavity",
+      "pearson_r": 0.8831
+    },
+    {
+      "feature_1": "mean perimeter",
+      "feature_2": "mean concave points",
+      "pearson_r": 0.851
+    },
+    {
+      "feature_1": "mean concavity",
+      "feature_2": "mean concave points",
+      "pearson_r": 0.9214
+    },
+    {
+      "feature_1": "mean radius",
+      "feature_2": "worst radius",
+      "pearson_r": 0.9695
+    },
+    {
+      "feature_1": "mean perimeter",
+      "feature_2": "worst radius",
+      "pearson_r": 0.9695
+    },
+    {
+      "feature_1": "mean area",
+      "feature_2": "worst radius",
+      "pearson_r": 0.9627
+    },
+    {
+      "feature_1": "mean texture",
+      "feature_2": "worst texture",
+      "pearson_r": 0.912
+    },
+    {
+      "feature_1": "mean radius",
+      "feature_2": "worst perimeter",
+      "pearson_r": 0.9651
+    },
+    {
+      "feature_1": "mean perimeter",
+      "feature_2": "worst perimeter",
+      "pearson_r": 0.9704
+    },
+    {
+      "feature_1": "mean area",
+      "feature_2": "worst perimeter",
+      "pearson_r": 0.9591
+    },
+    {
+      "feature_1": "mean concave points",
+      "feature_2": "worst perimeter",
+      "pearson_r": 0.8559
+    },
+    {
+      "feature_1": "worst radius",
+      "feature_2": "worst perimeter",
+      "pearson_r": 0.9937
+    },
+    {
+      "feature_1": "mean radius",
+      "feature_2": "worst area",
+      "pearson_r": 0.9411
+    },
+    {
+      "feature_1": "mean perimeter",
+      "feature_2": "worst area",
+      "pearson_r": 0.9415
+    },
+    {
+      "feature_1": "mean area",
+      "feature_2": "worst area",
+      "pearson_r": 0.9592
+    },
+    {
+      "feature_1": "worst radius",
+      "feature_2": "worst area",
+      "pearson_r": 0.984
+    },
+    {
+      "feature_1": "worst perimeter",
+      "feature_2": "worst area",
+      "pearson_r": 0.9776
+    },
+    {
+      "feature_1": "mean concavity",
+      "feature_2": "worst concavity",
+      "pearson_r": 0.8841
+    },
+    {
+      "feature_1": "mean concavity",
+      "feature_2": "worst concave points",
+      "pearson_r": 0.8613
+    },
+    {
+      "feature_1": "mean concave points",
+      "feature_2": "worst concave points",
+      "pearson_r": 0.9102
+    },
+    {
+      "feature_1": "worst concavity",
+      "feature_2": "worst concave points",
+      "pearson_r": 0.8554
+    }
+  ],
+  "correlations_with_target": {
+    "worst concave points": -0.7936,
+    "worst perimeter": -0.7829,
+    "mean concave points": -0.7766,
+    "worst radius": -0.7765,
+    "mean perimeter": -0.7426,
+    "worst area": -0.7338,
+    "mean radius": -0.73,
+    "mean area": -0.709,
+    "mean concavity": -0.6964,
+    "worst concavity": -0.6596,
+    "mean compactness": -0.5965,
+    "worst texture": -0.4569,
+    "worst smoothness": -0.4215,
+    "mean texture": -0.4152,
+    "mean smoothness": -0.3586
+  }
+}
